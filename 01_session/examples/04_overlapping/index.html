@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Media Queries: Overlapping</title>
+
+    <link href="../../lib/css/normalize.css" rel="stylesheet">
+    <link href="../../lib/css/base.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="heading">Media Queries</h1>
+    <h2 class="subheading">Overlapping</h2>
+    <p>
+        Be careful not to overlap media query ranges, that are not intended to be displayed at the same time.
+    </p>
+
+    <p>
+        <em>
+            Re-size the window width to 600px to see overlap. You will need to use chrome devtools mobile view to do this.
+        </em>
+    </p>
+
+    <section>
+        <h3>Example with overlap</h3>
+
+        <div class="block range-width-500-to-600 bg-exactly-600">
+            500 to 600 <span class="label-exactly-600">(overlap)</span>
+        </div>
+
+        <div class="block range-width-600-to-1000 bg-exactly-600">
+            600 to 1000 <span class="label-exactly-600">(overlap)</span>
+        </div>
+    </section>
+
+    <section>
+        <h3>Example with overlap</h3>
+
+        <div class="block range-width-500-to-600">
+            500 to 600
+        </div>
+
+        <div class="block range-width-601-to-1000">
+            600 to 1000
+        </div>
+    </section>
+
+</body>
+
+</html>

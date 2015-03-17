@@ -1,0 +1,51 @@
+
+body {
+    line-height: 1.5;
+}
+
+.header {
+    padding: 10px 0;
+    background: #eee;
+
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.page {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.content {
+    float: left;
+    width: 600px;
+}
+
+.sidebar {
+    float: left;
+    width: 300px;
+    margin: 0 0 0 20px;
+    padding: 0 20px 10px;
+    background: #ddd;
+}
+
+.footer {
+    clear: both;
+    padding: 10px 0;
+    background: #dfdfdf;
+    overflow: auto;
+}
+
+.footer-col {
+    float: left;
+    width: 300px;
+    margin: 0 10px;
+}
+
+.copyright {
+    text-align: center;
+}

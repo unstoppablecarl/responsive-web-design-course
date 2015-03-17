@@ -1,0 +1,70 @@
+.block {
+    background: #ddd;
+    padding: 10px;
+    display: none;
+    margin: 0 0 2px;
+}
+
+@media (min-width: 1000px) {
+    .min-width-1000 {
+        display: block;
+        background: #99b3ff;
+    }
+}
+
+@media (min-width: 900px) {
+    .min-width-900 {
+        display: block;
+        background: #aeaee6;
+    }
+}
+
+@media (min-width: 800px) {
+    .min-width-800 {
+        display: block;
+        background: #c2a9cc;
+    }
+}
+
+@media (min-width: 700px) {
+    .min-width-700 {
+        display: block;
+        background: #d6a3b3;
+    }
+}
+
+@media (min-width: 600px) {
+    .min-width-600 {
+        display: block;
+        background: #eb9e99;
+    }
+}
+
+@media (min-width: 500px) {
+    .min-width-500 {
+        display: block;
+        background: #ff9980;
+    }
+}
+
+@media (orientation : landscape) {
+    .orientation-landscape {
+        display: block;
+        background: ;
+    }
+}
+
+@media (orientation : portrait) {
+    .orientation-portrait {
+        display: block;
+        background: ;
+    }
+}
+
+@media (min-width: 500px) and (orientation : portrait) {
+    .orientation-portrait-min-width-500 {
+        display: block;
+        background: ;
+    }
+}
+
