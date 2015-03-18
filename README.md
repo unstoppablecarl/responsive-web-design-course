@@ -2,7 +2,7 @@
 
 A short form course on responsive web design.
 
-## Required Expertice
+## Required Expertise
 
 ### CSS
  - intermediate experience

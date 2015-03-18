@@ -10,8 +10,8 @@ Improve how the layout is displayed at mobile screen sizes (a screen less than 7
 
 # Extra
 
-- Implement a fixed header at mobile screen size.
-- Improve how the layout is displayed at tablet screen sizes (a screen greater than 768px abd less than 992px).
+ - Implement a fixed header at mobile screen size.
+ - Improve how the layout is displayed at tablet screen sizes (a screen greater than 768px and less than 992px).
 
 # Reference
 
